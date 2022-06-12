@@ -9,6 +9,8 @@
 // The function should return a 2D array with each of the elements in the following form: ['char', freq]. The character should be a string with a length of 1, and frequency is a number denoting the count.
 // For example, given the string "ab", your function should return [['a', 1], ['b', 1]].
 
+// From: https://www.freecodecamp.org/learn/coding-interview-prep/rosetta-code/letter-frequency
+
 // My solution:
 function letterFrequency(txt) {
   const sorted = txt.split('').sort()
